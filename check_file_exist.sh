@@ -2,7 +2,7 @@
 # saissir le nom du fichier
 read filename
 # verifie le nom du fichier
-if [ -f "$filename" ]; then
+if [ -f "filename" ]; then
     echo "$filename existe"
 else
     echo "$filename n'exixte pas"
