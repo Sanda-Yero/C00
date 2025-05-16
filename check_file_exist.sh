@@ -1,9 +1,10 @@
 #!/bin/bash
-# saissir le nom du fichier
+#saissir le nom du fichier
 read filename
-# verifie le nom du fichier
-if [ -f "filename" ]; then
-    echo "$filename existe"
+echo ""
+#verifie le nom du fichier
+if [ -f "$filename" ]; then
+    echo "'$filename' existe"
 else
-    echo "$filename n'exixte pas"
+    echo "'$filename' n'exixte pas"
 fi
