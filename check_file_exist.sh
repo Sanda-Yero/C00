@@ -1,7 +1,7 @@
 #!/bin/bash
 #saissir le nom du fichier
-read filename
 echo ""
+read filename
 #verifie le nom du fichier
 if [ -f "$filename" ]; then
     echo "'$filename' existe"
